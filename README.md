@@ -98,3 +98,5 @@ Em resumo, o uso desses métodos da biblioteca ***re*** do Python pode tornar a 
 # Referência:
 
 Re, ***Operações com expressões regulares***. Disponível em: <https://docs.python.org/pt-br/3/library/re.html>. Acesso em: 18 abr. 2023.
+
+Expressões Regulares HOWTO, ***docs.python.org***. Disponível em: <https://docs.python.org/pt-br/3/howto/regex.html#regex-howto>. acesso em: 18 abr. 2023.
