@@ -4,6 +4,8 @@ Neste repositório, vamos explorar o poder das expressões regulares em Python. 
 
 A biblioteca ***re*** do Python fornece várias funções úteis para trabalhar com expressões regulares e manipulação de strings. Dentre as funções mais comuns dessa biblioteca, estão ***split()***, ***sub()***, ***findall()*** e ***search()***, cada uma delas com suas próprias vantagens e benefícios.
 
+#### Split
+
 O método ***split()*** é utilizado para quebrar uma string em partes menores, com base em um determinado padrão. Ele retorna uma lista contendo as partes da string que foram separadas. Por exemplo, você pode usar o método ***split()*** para quebrar uma string em palavras, com base em espaços em branco ou outros caracteres especiais.
 
 ```python
@@ -27,6 +29,8 @@ print(lista_dados_bancarios)
 
 ```
 
+#### Sub
+
 Já o método ***sub()*** é utilizado para substituir partes de uma string que correspondam a um determinado padrão. Ele retorna uma nova string com as substituições aplicadas. Isso é útil quando você precisa alterar ou corrigir informações em uma string, como substituir um texto específico por outro.
 
 ```python
@@ -43,6 +47,8 @@ novo_texto = sub("Pedro", "João", texto_para_substituir, count=1)
 print(novo_texto)
 
 ```
+
+#### Findall
 
 O método ***findall()*** é utilizado para encontrar todas as ocorrências de um padrão em uma string e retorná-las como uma lista. Isso é útil para quando você precisa extrair informações específicas de uma string, como números de telefone ou endereços de e-mail.
 
@@ -66,6 +72,8 @@ lista_de_telefones = findall("\(\d{2}\)\s\d{3,}-\d{3,}", texto_com_telefones)
 print(lista_de_telefones)
 
 ```
+
+#### Search
 
 Por fim, o método ***search()*** é utilizado para encontrar a primeira ocorrência de um padrão em uma string e retorná-la como um objeto de correspondência. Isso é útil quando você precisa de informações mais detalhadas sobre uma correspondência, como a posição em que ela ocorreu na string ou o comprimento da correspondência.
 
