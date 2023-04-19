@@ -95,7 +95,7 @@ else:
 
 Em resumo, o uso desses métodos da biblioteca ***re*** do Python pode tornar a manipulação de strings e expressões regulares mais eficiente e eficaz. Eles permitem que você trabalhe com diferentes tipos de padrões e extraia informações específicas de uma string de forma mais fácil e precisa.
 
-# Referência:
+# Referências:
 
 Re, ***Operações com expressões regulares***. Disponível em: <https://docs.python.org/pt-br/3/library/re.html>. Acesso em: 18 abr. 2023.
 
