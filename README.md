@@ -75,7 +75,7 @@ print(lista_de_telefones)
 
 #### Search
 
-Por fim, o método ***search()*** é utilizado para encontrar a primeira ocorrência de um padrão em uma string e retorná-la como um objeto de correspondência. Isso é útil quando você precisa de informações mais detalhadas sobre uma correspondência, como a posição em que ela ocorreu na string ou o comprimento da correspondência.
+Por fim, o método ***search()*** é utilizado para encontrar a primeira ocorrência de um padrão em uma string e retorná-la como um objeto de correspondência. Isso é útil quando você precisa de informações mais detalhadas sobre uma correspondência, como a posição em que ela ocorreu na string, o comprimento da correspondência ou simplesmente se ela existe ou não.
 
 ```python
 #!/usr/bin/python3
